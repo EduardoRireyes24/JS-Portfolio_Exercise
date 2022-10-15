@@ -29,7 +29,7 @@ module.exports = {
     module:{
         rules:[
             {
-                test: /\.mjs|.js$/,
+                test: /c.mjs|.js$/,
                 exclude: /node_modules/,
                 use: {
                     loader: 'babel-loader'
